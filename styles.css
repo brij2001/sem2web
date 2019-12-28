@@ -13,13 +13,21 @@ header .header-bg {
     border-bottom-style: solid;
     border-bottom-color: rgb(140, 77, 121);
 }
+body{
+	width:80%;
+	margin:auto;
+	
+    border-right-style: solid;
+    border-left-style: solid;
+    border-width: 195px;
+}
 header .contact{
 	position: absolute;
     top: -1px;
 	font-size:15px;
     right: 15px;
     border: 1px solid #834a72;
-    margin: 0;
+    margin-right:345px;
     padding: 4px 5px 5px;
 	font-family:'Roboto', sans-serif
 	
@@ -53,4 +61,7 @@ nav .li a:hover {
 .def{
 	font-size:medium;
 	font-family:"georgian";
+}
+p1{
+	width:80%;
 }
