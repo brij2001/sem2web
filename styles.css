@@ -62,6 +62,25 @@ nav .li a:hover {
 	font-size:medium;
 	font-family:"georgian";
 }
+.contain{
+    position: relative;
+    width: 80%;
+    margin:auto;
+    padding-left: 255px;
+}
+.text{
+    position: absolute;
+    color: black;
+    bottom: -2px;
+    top: 0px;
+    font-size: 22px;
+    right: 230px;
+    left:230px;
+    width: :80%;
+    margin: auto;
+    padding: 50px;
+    font-family:Tahoma, Geneva, sans-serif;
+}
 p1{
 	width:80%;
 }
