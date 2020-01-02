@@ -17,7 +17,6 @@ header .header-bg {
 body{
 	width:80%;
 	margin:auto;
-	
     border-right-style: solid;
     border-left-style: solid;
     border-width: 195px;
@@ -30,13 +29,13 @@ header .contact{
     border: 1px solid #834a72;
     margin-right:345px;
     padding: 4px 5px 5px;
-	font-family:'Roboto', sans-serif
+	font-family:'Roboto', sans-serif;
 	
 }
 nav .ul {
 	list-style-type: none;
 	padding: 0px;
-	margin:auto;
+	margin: auto;
 	width:80%;
 	overflow: hidden;
 	background-color: seagreen;
@@ -44,6 +43,7 @@ nav .ul {
 
 .nav li {
 	float: right;
+    font-size: 20px;
 	display: inline;
 }
 
@@ -65,25 +65,28 @@ nav .li a:hover {
 }
 .contain{
     position: relative;
-    width: 80%;
+    width: 97%;
     margin:auto;
-    padding-left: 255px;
+    margin-left: 180px;
 }
 .text{
     position: absolute;
     color: black;
-    bottom: -2px;
-    top: 0px;
-    font-size: 22px;
-    right: 230px;
-    left:230px;
+    bottom: 2px;
+    top: 75px;
+    font-size: 26.5px;
     width: :80%;
-    margin: auto;
-    padding: 50px;
+    padding-left: 65px;
+    padding-right: 345px;
     font-family:Tahoma, Geneva, sans-serif;
 }
-p1{
-	width:80%;
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+	width: 80%;
+    margin: auto;
 }
 .tg  {
     width: 80%;
@@ -97,26 +100,26 @@ p1{
 }
 .tg td{
     font-family:Arial, sans-serif;
-    font-size:14px;
+    font-size:20px;
     padding:10px 20px;
     border-style:solid;
-    border-width:1px;
+    border-width:5px;
     overflow:hidden;
     word-break:normal;
-    border-color:#9ABAD9;
+    border-color:#409cff;
     color:#444;
     background-color:#EBF5FF;
 }
 .tg th{
     font-family:Arial, sans-serif;
-    font-size:14px;
+    font-size:20px;
     font-weight:normal;
     padding:10px 20px;
     border-style:solid;
-    border-width:1px;
+    border-width:5px;
     overflow:hidden;
     word-break:normal;
-    border-color:#9ABAD9;
+    border-color:#409cff;
     color:#fff;
     background-color:#409cff;
 }
