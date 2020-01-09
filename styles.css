@@ -1,12 +1,13 @@
-header{
-	font-family: 'Roboto', sans-serif;
+header {
+    font-family: 'Roboto', sans-serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 1.471;
-	color:seagreen;
-	width:80%;
-	margin:auto;
-	}
+    color: seagreen;
+    width: 80%;
+    margin: auto;
+}
+
 header .header-bg {
     border-bottom: 5px solid #8c4d79;
     border-bottom-width: 5px;
@@ -14,62 +15,67 @@ header .header-bg {
     border-bottom-color: rgb(140, 77, 121);
 }
 
-body{
-	width:80%;
-	margin:auto;
+body {
+    width: 80%;
+    margin: auto;
     border-right-style: solid;
     border-left-style: solid;
     border-width: 195px;
 }
-header .contact{
-	position: absolute;
+
+header .contact {
+    position: absolute;
     top: -1px;
-	font-size:15px;
+    font-size: 15px;
     right: 15px;
     border: 1px solid #834a72;
-    margin-right:345px;
+    margin-right: 345px;
     padding: 4px 5px 5px;
-	font-family:'Roboto', sans-serif;
-	
+    font-family: 'Roboto', sans-serif;
+
 }
+
 nav .ul {
-	list-style-type: none;
-	padding: 0px;
-	margin: auto;
-	width:80%;
-	overflow: hidden;
-	background-color: seagreen;
+    list-style-type: none;
+    padding: 0px;
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+    background-color: seagreen;
 }
 
 .nav li {
-	float: right;
+    float: right;
     font-size: 20px;
-	display: inline;
+    display: inline;
 }
 
 nav .li a {
-  display: block;
-  color: white;
-  font-family:"Comic Sans MS", Comic Sans, cursive;
-  text-align: center;
-  padding: 10px 28px;
-  text-decoration: none;
+    display: block;
+    color: white;
+    font-family: "Comic Sans MS", Comic Sans, cursive;
+    text-align: center;
+    padding: 10px 28px;
+    text-decoration: none;
 }
 
 nav .li a:hover {
-  background-color: #111;
+    background-color: #111;
 }
-.def{
-	font-size:medium;
-	font-family:"georgian";
+
+.def {
+    font-size: medium;
+    font-family: "georgian";
 }
-.contain{
+
+.contain {
     position: relative;
     width: 97%;
-    margin:auto;
+    margin: auto;
     margin-left: 180px;
 }
-.text{
+
+.text {
     position: absolute;
     color: black;
     bottom: 2px;
@@ -78,60 +84,67 @@ nav .li a:hover {
     width: :80%;
     padding-left: 65px;
     padding-right: 345px;
-    font-family:Tahoma, Geneva, sans-serif;
+    font-family: Tahoma, Geneva, sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-h1{
-	width: 80%;
+
+h1 {
+    width: 80%;
     font-family: Verdana, Geneva, sans-serif;
     margin: auto;
 }
-.tg  {
+
+.tg {
     width: 80%;
-    margin:auto;
-    margin-top:45px;
-    border-collapse:collapse;
+    margin: auto;
+    margin-top: 45px;
+    border-collapse: collapse;
     border-bottom: 5px solid #8c4d79;
     border-bottom-width: 5px;
     border-bottom-style: solid;
     border-bottom-color: rgb(140, 77, 121);
 }
-.tg td{
-    font-family:Arial, sans-serif;
-    font-size:20px;
-    padding:10px 20px;
-    border-style:solid;
-    border-width:5px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:#409cff;
-    color:#444;
-    background-color:#EBF5FF;
+
+.tg td {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 5px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #409cff;
+    color: #444;
+    background-color: #EBF5FF;
 }
-.tg th{
-    font-family:Arial, sans-serif;
-    font-size:20px;
-    font-weight:normal;
-    padding:10px 20px;
-    border-style:solid;
-    border-width:5px;
-    overflow:hidden;
-    word-break:normal;
-    border-color:#409cff;
-    color:#fff;
-    background-color:#409cff;
+
+.tg th {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 5px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #409cff;
+    color: #fff;
+    background-color: #409cff;
 }
-.tg .tgtab1{
-    text-align:center;
-    vertical-align:top;
+
+.tg .tgtab1 {
+    text-align: center;
+    vertical-align: top;
 }
+
 hr.thin {
-height: 3px;
-border: 0;
-color: #333;
-background-color: #333;
-width: 100%;
+    height: 3px;
+    border: 0;
+    color: #333;
+    background-color: #333;
+    width: 100%;
 }
